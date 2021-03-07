@@ -1,0 +1,19 @@
+/*
+* priority  0-4 
+* 
+*
+*/
+
+
+"name":[{
+    "priority":, // 0-4
+    "ports":[80],
+    "address":[].
+    "address_port":[],
+    "limit":{},
+    "out":[]
+}
+
+
+
+
