@@ -1,12 +1,18 @@
+/*
+* Tehat mindenki tud magyarul akinek ezt szanom.
+* Minden opcio opcionalis
+*/
+
 {
      "services":{
-         "http":{
+         "http":[{
+             "priority":0,
              "ports":[80],
              "address":[].
              "address_port":[],
              "limit":{},
              "out":[]
-         },
+         }],
          "https":{
              "ports":[443],
              "address":[].
@@ -38,12 +44,13 @@
          }
      },
      "clients":{
-         "dellZita":{
+         "ExampleClient":{
               "address":[],
-              "interface":"",
+              "interface":"", 
               "forward":"",
               "limit":{}.
-              "services":[]
+              "services":[],
+              "costume":[]
          }
      },
      "costume":[]
